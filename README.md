@@ -13,7 +13,7 @@ The application allows users to type questions and receive AI-generated response
 ### Tech stack
 Python| Streamlit| OpenAI Python SDK| python-dotenv (Environment variable management)
 
-# 📂 Project Structure
+## 📂 Project Structure
 ```text
 chatbot/
 │
@@ -22,6 +22,7 @@ chatbot/
 ├── requirements.txt
 ├── README.md
 └── .env # API key storage (not pushed to GitHub)
+```
 ---
 ## 📊 Learning Outcomes
 Through this project, the following concepts are demonstrated:
