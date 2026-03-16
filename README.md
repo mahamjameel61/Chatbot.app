@@ -7,8 +7,20 @@ This project demonstrates **LLM API integration, environment variable handling, 
 This project integrates a **Large Language Model (LLM) "gpt-5-nano"** using **OpenAI API** into a web application.
 
 ## Workflow
-User Question → Streamlit UI → OpenAI API (API Request) → LLM Processing (gpt-5-nano) → Response → Display in Web App
+User Question → Streamlit UI → OpenAI API (API Request) → LLM Processing (gpt-5-nano) → Response → Display in Web App.
 The application allows users to type questions and receive AI-generated responses in real time.
+
+### Workflow Explanation
+1. **User Input**  
+   The user enters a question through the Streamlit chat interface.
+2. **Frontend Handling**  
+   Streamlit captures the input and sends it to the backend Python logic.
+3. **API Request**  
+   The application sends the prompt to the OpenAI API.
+4. **LLM Processing**  
+   The Large Language Model processes the request and generates a response.
+5. **Response Rendering**  
+   The generated response is displayed back to the user in the Streamlit interface.
 
 ### Tech stack
 Python| Streamlit| OpenAI Python SDK| python-dotenv (Environment variable management)
