@@ -2,36 +2,15 @@
 A simple AI chatbot web application built using **Streamlit** and the **OpenAI Python SDK**.  
 The chatbot sends user questions to an LLM and returns concise answers in a clean web interface.
 This project demonstrates **LLM API integration, environment variable handling, and simple AI web deployment**.
+## 🌐 Live Demo
+Access the deployed chatbot here: https://mahamjameel61-ai-chatbot.streamlit.app
 
-## 📌 Project Overview
+## Project Overview
 This project integrates a **Large Language Model (LLM) "gpt-5-nano"** using **OpenAI API** into a web application.
-
 ## Workflow
-User Question → Streamlit UI → OpenAI API (API Request) → LLM Processing (gpt-5-nano) → Response → Display in Web App.
+User Question → Streamlit UI → OpenAI API (API Request) → LLM Processing (gpt-5-nano) → Generates Response → Display in Web App.
 The application allows users to type questions and receive AI-generated responses in real time.
 
-### Workflow Explanation
-1. **User Input**  
-   The user enters a question through the Streamlit chat interface.
-2. **Frontend Handling**  
-   Streamlit captures the input and sends it to the backend Python logic.
-3. **API Request**  
-   The application sends the prompt to the OpenAI API.
-4. **LLM Processing**  
-   The Large Language Model processes the request and generates a response.
-5. **Response Rendering**  
-   The generated response is displayed back to the user in the Streamlit interface.
-
-## 📂 Project Structure
-```text
-chatbot/
-│
-├── app.py # Streamlit web app
-├── chatbot.py # Basic LLM API test script
-├── requirements.txt
-├── README.md
-└── .env # API key storage (not pushed to GitHub)
-```
 ## ⚙️ Requirements & Installation
 #### Clone or Download the Project 
 - git clone https://github.com/mahamjameel61/AI_Chatbot.app 
@@ -49,10 +28,20 @@ chatbot/
 - After running the command, the application will automatically open in your browser:
 - http://localhost:8501
 
+## 📂 Project Structure
+```text
+chatbot/
+│
+├── app.py # Streamlit web app
+├── chatbot.py # Basic LLM API test script
+├── requirements.txt
+├── README.md
+└── .env # API key storage (not pushed to GitHub)
+```
 ### Tech stack
 Python| Streamlit| OpenAI Python SDK| python-dotenv (Environment variable management)
-
 ---
+
 ## 📊 Learning Outcomes
 Through this project, the following concepts are demonstrated:
 
@@ -70,5 +59,4 @@ Through this project, the following concepts are demonstrated:
 
 - **Basic AI Application Deployment Workflow** 
   Structuring a project with dependencies (`requirements.txt`) and preparing it for local or cloud deployment.
-
 
