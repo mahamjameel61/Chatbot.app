@@ -38,8 +38,9 @@ chatbot/
 ├── README.md
 └── .env # API key storage (not pushed to GitHub)
 ```
-### Tech stack
+### Tech Stack
 Python| Streamlit| OpenAI Python SDK| python-dotenv (Environment variable management)
+
 ---
 
 ## 📊 Learning Outcomes
